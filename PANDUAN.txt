@@ -1,0 +1,50 @@
+PANDUAN PASANG KERETA HIJAIYAH (lewat HP)
+==========================================
+
+Isi paket:
+- kereta-hijaiyah.js       -> program game
+- huruf-01-alif.mp3 s/d huruf-29-ya.mp3 -> suara 29 huruf
+- PANDUAN.txt              -> file ini (tidak perlu diunggah)
+
+
+LANGKAH 1 - Ekstrak zip
+Buka file zip di aplikasi File / Files di HP, lalu pilih "Ekstrak".
+
+
+LANGKAH 2 - Buat akun dan repository GitHub
+1. Buka github.com di browser, daftar atau masuk.
+2. Ketuk tombol "+" di kanan atas, lalu pilih "New repository".
+3. Repository name: hurufa-games
+4. Pilih "Public" (wajib, supaya game bisa dipanggil dari Blogger).
+5. Ketuk "Create repository".
+
+
+LANGKAH 3 - Unggah file
+1. Di halaman repository, ketuk "uploading an existing file"
+   (atau menu "Add file" > "Upload files").
+   Jika tombol tidak muncul, aktifkan "Situs desktop" di menu browser.
+2. Pilih kereta-hijaiyah.js dan ke-29 file mp3 sekaligus.
+   Semua file diletakkan langsung di repository, jangan dibuat folder.
+3. Gulir ke bawah, ketuk "Commit changes". Tunggu sampai selesai.
+
+
+LANGKAH 4 - Tempel di Blogger
+1. Buat postingan baru, ubah ke Tampilan HTML.
+2. Tempel 2 baris ini, GANTI "NAMAKAMU" dengan username GitHub-mu:
+
+<div id="kereta-hijaiyah"></div>
+<script src="https://cdn.jsdelivr.net/gh/NAMAKAMU/hurufa-games@main/kereta-hijaiyah.js"></script>
+
+3. Publikasikan. Selesai.
+
+Contoh: kalau username GitHub-mu "hurufa", barisnya menjadi
+https://cdn.jsdelivr.net/gh/hurufa/hurufa-games@main/kereta-hijaiyah.js
+
+
+CATATAN
+- Satu game cukup dipasang SATU kali per halaman.
+- Kalau nanti file di GitHub diganti, perubahannya bisa butuh beberapa
+  jam sampai muncul di blog. Untuk mempercepat, buka alamat ini sekali:
+  https://purge.jsdelivr.net/gh/NAMAKAMU/hurufa-games@main/kereta-hijaiyah.js
+- Kalau game tidak muncul: pastikan repository "Public", nama file tidak
+  berubah, dan username sudah benar (huruf besar/kecil berpengaruh).
